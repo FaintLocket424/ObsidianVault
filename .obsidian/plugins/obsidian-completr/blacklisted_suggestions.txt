@@ -1,0 +1,11 @@
+min
+Min
+pTs
+PTS
+attribute
+nan
+naN
+NaN
+nANE
+NANTFZ
+NAND
