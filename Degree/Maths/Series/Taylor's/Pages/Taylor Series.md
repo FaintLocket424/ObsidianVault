@@ -151,3 +151,53 @@ A Taylor series about $x=0$, that is:
 $$
 \sum_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}x^{n}
 $$
+
+---
+### Example Question 
+
+Prove that 
+
+$$
+\frac{1}{n^{a+1}} < \frac{1}{a} \left(\frac{1}{(n-1)^{2}} - \frac{1}{n^{a}}\right)
+$$
+
+for $a>0$ and $n=2,3, \ldots$ using
+
+$$
+f(x) \approx f(x_{0}) + f'(x_{0})(x-x_{0}) + \frac{f''(x_{0})}{2!} (x-x_{0})^{2}
+$$
+
+Let's try using 
+
+$$
+f(x) = \frac{1}{x^{a}}
+$$
+
+as a function to input.
+And its derivatives are
+
+$$
+\begin{aligned}
+f'(x) &= - \frac{a}{x^{a+1}}\\
+\\
+f''(x) &= \frac{a(a+1)}{x^{a+2}}
+\end{aligned}
+$$
+
+Using Taylor's theorem, by taking $f(x) = \frac{1}{x^{a}}$ where $x=n-1$ and $x_{0}=n$ we get
+
+$$
+\frac{1}{(n-1)^{a}} = \frac{1}{n^{a}} + (-1)\left(\frac{-a}{n^{a+1}}\right) + \frac{a (a+1)}{2 \xi^{a+2}}
+$$
+
+for some $\xi \in (who knows)$ 
+
+So discarding the last term gets us 
+
+$$
+\frac{1}{(n-1)^{a}} > \frac{1}{n^{a}} + \frac{a}{n^{a+1}}
+$$
+
+$$
+
+$$

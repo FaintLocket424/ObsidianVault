@@ -4,7 +4,6 @@ tags:
   - degree/singlemathsa/series
 ---
 ![[Series MOC 🌍]]
-
 ### Convergence
 
 A finite series always has a well-defined finite sum.
